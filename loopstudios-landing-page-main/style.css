@@ -1,0 +1,212 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap");
+
+/* 
+font-family: 'Alata', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+*/
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  font-family: "Josefin Sans", sans-serif;
+}
+
+.header {
+  background-image: url(images/desktop/image-hero.jpg);
+  width: 100%;
+  height: 500px;
+}
+
+.section1-baslik {
+  margin-left: 125px;
+  margin-top: 125px;
+}
+.section1-header {
+  color: rgb(197, 195, 195);
+  border: 3px solid rgb(197, 195, 195);
+  width: 400px;
+  height: 200px;
+  text-transform: uppercase;
+  font-weight: 300;
+  padding: 25px;
+}
+
+.section2 {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  padding: 50px;
+  margin-top: 150px;
+}
+
+.imageArea {
+  margin-left: 75px;
+}
+
+.section2-image {
+  width: 700px;
+  height: 400px;
+}
+
+.section2-text {
+  width: 100%;
+  height: 350px;
+  position: relative;
+  right: 150px;
+  top: 129px;
+  justify-content: center;
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  background-color: white;
+  color: hsl(0, 0%, 55%);
+}
+
+.section2-textArea {
+  font-size: 16px;
+}
+
+.section2-header {
+  text-transform: uppercase;
+  font-weight: 300;
+  color: black;
+}
+
+.section3 {
+  margin-top: 150px;
+}
+
+.box1 {
+  background-image: url(images/desktop/image-deep-earth.jpg);
+  width: 255px;
+  height: 450px;
+  color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.box2 {
+  background-image: url(images/desktop/image-night-arcade.jpg);
+  width: 255px;
+  height: 450px;
+  color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.box3 {
+  background-image: url(images/desktop/image-soccer-team.jpg);
+  width: 255px;
+  height: 450px;
+  color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.box4 {
+  background-image: url(images/desktop/image-grid.jpg);
+  width: 255px;
+  height: 450px;
+  color: white;
+  margin-bottom: 10px;
+}
+.box5 {
+  background-image: url(images/desktop/image-from-above.jpg);
+  width: 255px;
+  height: 450px;
+  color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.box6 {
+  background-image: url(images/desktop/image-pocket-borealis.jpg);
+  width: 255px;
+  height: 450px;
+  color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.box7 {
+  background-image: url(images/desktop/image-curiosity.jpg);
+  width: 255px;
+  height: 450px;
+  color: white;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.box8 {
+  background-image: url(images/desktop/image-fisheye.jpg);
+  width: 255px;
+  height: 450px;
+  color: white;
+  margin-bottom: 10px;
+  opacity: 0.9;
+}
+
+.section3-title {
+  font-weight: 300;
+}
+
+.btn1 {
+  width: 150px;
+  border-radius: 3px;
+  background-color: white;
+  font-weight: 500;
+}
+
+.section-deeper {
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  color: white;
+  margin-top: 340px;
+  display: flex;
+  margin-left: 40px;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  margin-top: 100px;
+}
+
+.footer-duzelt {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  height: 100px;
+}
+
+.colorize-it {
+  color: hsl(0, 0%, 55%);
+}
+
+.linkler {
+  text-decoration: none;
+  color: white;
+}
+
+.social-media {
+  justify-content: end;
+  display: flex;
+}
+
+/* hover */
+
+.hovereffect:hover{
+    border-bottom: 2px solid white;
+    
+}
+
+.btn1:hover{
+    background-color: black;
+    color: white;
+}
+
+.boxHover:hover{
+    opacity: .4;
+    color: black;
+    cursor: pointer;
+}
